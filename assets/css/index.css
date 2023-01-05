@@ -1,0 +1,471 @@
+@font-face {
+    font-family: 'Gilory';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("../fonts/Gilroy-Thin.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Gilory';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Gilroy-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Gilory';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Gilroy-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Gilory';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Gilroy-Medium.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Gilory';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/Gilroy-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Gilory';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Gilroy-ExtraBold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Gilory';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("../fonts/Gilroy-Black.ttf") format('truetype');
+}
+body{
+    font-family: 'Gilory';
+}
+.common-section{
+    background-size: cover;
+    min-height: 600px;
+}
+.second-section{
+    background-image: url('../Images/section-1-banner.png');
+}
+.third-section{
+    background-image: url('../Images/section-3-banner.png');
+}
+.four-section{
+    background-image: url('../Images/section-4-banner.png');
+}
+.five-section{
+    background-image: url('../Images/section-5-banner.png');
+}
+.backImagecontent-part{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.backImagecontent-part .small-line{
+    padding: 18px 36px 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: 0.435em;
+    color: #000000;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+.backImagecontent-part .big-line{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    background-color: #fff;
+    padding: 14px 20px 10px;
+    margin-top: 24px;
+    max-width: 90%;
+}
+.button-part{
+    border: 1px solid #000000;
+    padding: 12px 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.205em;
+    color: #000000;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.header-part{
+    padding: 24px 0;
+}
+.header-part .nav-item{
+    padding-right: 1.5rem;
+}
+.header-part .nav-item:last-child{
+    padding-right: 0;
+}
+.header-part .navbar-brand{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.435em;
+    color: #000000;
+}
+.header-part .nav-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.205em;
+    color: #000000;
+}
+.foundation-section{
+    padding: 100px 0;
+}
+.foundation-section .foundation-content h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 22px;
+}
+.foundation-section .foundation-row{
+    align-items: center;
+}
+.foundation-section .foundation-content {
+    max-width: 80%;
+}
+.foundation-section .foundation-content p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #646464;
+    margin-bottom: 30px;
+}
+.foundation-section .foundation-content p.writer{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #646464;
+}
+.foundation-section .foundation-content .social-media-icon{
+    margin-left: 18px;
+}
+.foundation-section .foundation-content .social-media-icon a{
+    text-decoration: none;
+    margin-right: 12px;
+}
+.service-section{
+    padding: 100px 0;
+}
+.service-section .block .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.service-section .block{
+    padding: 0 3rem 2rem;
+}
+.service-section .block .inner-title{
+    font-weight: 500;
+}
+.service-section .block p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 20px 0 30px;
+}
+.service-section .block li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.team-office-section{
+    padding: 80px 0;
+}
+.team-office-content{
+    max-width: 90%;
+    margin: auto;
+}
+.team-office-section .team-office-content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.team-office-section .team-office-content p.left-part-text{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.team-office-section .team-office-content .dark-text a{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+.team-office-section .team-office-content .dark-text b{
+    font-weight: 600;
+}
+.social-media-section{
+    padding: 60px 0;
+}
+.social-section-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 0;
+    text-align: center;
+}
+.social-media-section .image-part{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: all 3ms ease-in-out;
+}
+.social-media-section .image-part:hover img{
+    transform: scale(1.01);
+}
+.social-media-section .image-part .title{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.social-row-part{
+    margin-top: 45px;
+}
+.footer-section{
+    background: #292929;
+    position: relative;
+    padding: 160px 0;
+}
+.footer-section .footer-button-part{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.footer-section .footer-button-part button{
+    background: #424242;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 32px 42px;
+    outline: 0;
+    border: 0;
+}
+.footer-section .version{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 58px 0;
+}
+.footer-section p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    max-width: 58%;
+    margin: auto;
+}
+.footer-section .fix-button{
+    position: absolute;
+    top: -40px;
+    left: 48%;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section .fix-button a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.29em;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section .fix-button a img{
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width:1024px){
+    .foundation-section .image-part img{
+        width: 100%;
+    }
+    .foundation-section .foundation-content{
+        max-width: 90%;
+    }
+    .service-section .block{
+        padding: 0 1rem 1rem;
+    }
+    .team-office-section .image-part img{
+        width: 100%;
+    }
+    .social-media-section .image-part img{
+        width: 100%;
+    }
+    .header-part .nav-item{
+        padding-right: 0;
+    }
+    .header-part .nav-link{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:991px) {
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler:hover,.navbar-toggler:focus{
+        outline: 0;
+        box-shadow: none;
+    }
+    .common-section{
+        background-size: contain;
+        min-height: 400px;
+        background-repeat: no-repeat;
+    }
+    .backImagecontent-part {
+        padding-top: 50px;
+    }
+    .foundation-section {
+        padding: 50px 0;
+    }
+    .service-section{
+        padding: 50px 0;
+    }
+    .team-office-section{
+        padding: 0px 0 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    .header-part .navbar-brand{
+        font-size: 12px;
+    }
+    .header-part {
+        padding: 16px 0;
+    }
+    .common-section{
+        background-size: cover;
+        background-position: center;
+    }
+    .backImagecontent-part .small-line{
+        padding: 10px 20px 6px;
+        font-size: 24px;
+    }
+    .backImagecontent-part .big-line{
+        font-size: 18px;
+        padding: 10px 16px 8px;
+        max-width: 100%;
+    }
+    .foundation-section .image-part, .team-office-content{
+        margin-top: 2rem;
+    }
+    .service-section{
+        padding-bottom: 0;
+    }
+    .footer-section p{
+        max-width: 90%;
+    }
+    .footer-section .fix-button{
+        left: 42%;
+    }
+    .team-office-section .team-office-content p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .team-office-section .team-office-content p.left-part-text{
+        margin-bottom: 36px;
+    }
+    .team-office-section .team-office-content .dark-text a{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .service-section .block .title{
+        font-size: 22px;
+    }
+    .service-section .block p{
+        font-size: 16px;
+        margin: 10px 0 20px;
+    }
+    .service-section .block li{
+        font-size: 16px;
+    }
+    .social-media-section .image-part{
+        margin-bottom: 20px;
+    }
+    .footer-section{
+        padding: 80px 0;
+    }
+}
+@media screen and (max-width: 375px){
+    .header-part .navbar-brand {
+        font-size: 11px;
+    }
+}
